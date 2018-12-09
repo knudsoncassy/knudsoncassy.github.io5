@@ -1,0 +1,63 @@
+@media all and (max-width:1200px)
+{
+.rock_feature .feature_image {
+	width: 170px; height: 170px;
+}
+.rock_feature .feature_detail {
+	width: calc(100% - 200px);
+}
+.rock_feature .feature_detail h3 {
+	margin-top: 5px;
+}
+.rock_feature .feature_detail p {
+	font-size: 15px;
+}
+}
+@media all and (max-width:992px)
+{
+.rock_main_banner {
+	height: auto !important;
+}
+.rock_main_banner .rock_banner_content {
+	padding: 100px; left: auto; top: auto; position: relative; transform: none; -webkit-transform: none; -moz-transform: none;
+}
+.rock_main_banner .rock_banner_content .rock_logo img {
+	max-width: 100%;
+}
+.rock_logo_wrapper .rock_light {
+	top: 100%;
+}
+.rock_logo_wrapper .rock_light img {
+	max-width: 130%;
+}
+.rock_feature .feature_detail p {
+	font-size: 18px;
+}
+.rock_footer .rock_footer_logo {
+	text-align: center;
+}
+.rock_footer .rock_social {
+	text-align: center;
+}
+.rock_footer .rock_copyright {
+	margin: 15px auto;
+}
+.rock_footer .rock_social ul {
+	float: none; display: inline-block;
+}
+}
+@media all and (max-width:479px)
+{
+.rock_feature.left .feature_image {
+	width: 100%; height: auto; text-align: center; margin-right: 0px; margin-bottom: 10px; margin-left: 0px;
+}
+.rock_feature .feature_image {
+	width: 100%; height: auto; text-align: center; margin-right: 0px; margin-bottom: 10px; margin-left: 0px;
+}
+.rock_feature .feature_detail {
+	width: 100%; text-align: center;
+}
+.rock_feature.left .feature_detail {
+	text-align: center;
+}
+}
