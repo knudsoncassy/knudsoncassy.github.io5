@@ -1,0 +1,31 @@
+/* included only when we don't want to use fonts from google server */
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 100;
+	src: local('Lato Hairline'), local('Lato-Hairline'),  url(../fonts/Lato/Lato-Hairline.txt) format('woff2'),  url(../fonts/Lato/Lato-Hairline.woff) format('woff'),  url(../fonts/Lato/Lato-Hairline.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Lato Light'), local('Lato-Light'),  url(../fonts/Lato/Lato-Light.txt) format('woff2'),  url(../fonts/Lato/Lato-Light.woff) format('woff'),  url(../fonts/Lato/Lato-Light.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Lato Regular'), local('Lato-Regular'),  url(../fonts/Lato/Lato-Regular.txt) format('woff2'),  url(../fonts/Lato/Lato-Regular.woff) format('woff'),  url(../fonts/Lato/Lato-Regular.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Lato Bold'), local('Lato-Bold'),  url(../fonts/Lato/Lato-Bold.txt) format('woff2'),  url(../fonts/Lato/Lato-Bold.woff) format('woff'),  url(../fonts/Lato/Lato-Bold.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 900;
+	src: local('Lato Black'), local('Lato-Black'),  url(../fonts/Lato/Lato-Black.txt) format('woff2'),  url(../fonts/Lato/Lato-Black.woff) format('woff'),  url(../fonts/Lato/Lato-Black.ttf) format('truetype');
+}
