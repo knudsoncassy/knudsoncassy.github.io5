@@ -1,78 +1,15 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
+<!-- saved from url=(0064)https://mdn.github.io/webgl-examples/tutorial/sample8/index.html -->
+<html class="gr__mdn_github_io"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>WebGL Demo</title>
+    <link rel="stylesheet" href="./WebGL Demo_files/webgl.css" type="text/css">
+  </head>
 
-body {
-  margin: 0;
-  font-family: Arial;
-  font-size: 17px;
-}
+  <body data-gr-c-s-loaded="true">
+    <canvas id="glcanvas" width="1920" height="1080"></canvas>
+  
 
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 50%; 
-  min-height: 0%;
-}
-
-.content {
-  position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-}
-
-#myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-}
-
-#myBtn:hover {
-  background: #ddd;
-  color: black;
-}
-</style>
-</head>
-<body>
-
-<video autoplay muted loop id="myVideo">
-  <source src="rain.mp4" type="video/mp4">
-  Your browser does not support HTML5 video.
-</video>
-
-<div class="content">
-  <h1></h1>
-  <p>.</p>
-  <button id="myBtn" onclick="myFunction()">Pause</button>
-</div>
-
-<script>
-var video = document.getElementById("myVideo");
-var btn = document.getElementById("myBtn");
-
-function myFunction() {
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "Pause";
-  } else {
-    video.pause();
-    btn.innerHTML = "Play";
-  }
-}
-</script>
-
-</body>
-</html>
+  <script src="./WebGL Demo_files/gl-matrix.js.download"></script>
+  <script src="./WebGL Demo_files/webgl-demo.js.download"></script>
+</body></html>
