@@ -1,9 +1,9 @@
 /* Responsive Full Background Image Using CSS
- * Tutorial URL: 
+ * Tutorial URL: http://sixrevisions.com/css/responsive-background-image/
 */
 body {
   /* Location of the image */
-  background-image: url(img1.jpg);
+  background-image: url(images/background-photo.jpg);
   
   /* Image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -22,7 +22,7 @@ body {
   background-color:#464646;
   
   /* SHORTHAND CSS NOTATION
-   * background: url(img1.jpg) center center cover no-repeat fixed;
+   * background: url(background-photo.jpg) center center cover no-repeat fixed;
    */
 }
 
@@ -31,6 +31,6 @@ body {
   body {
     /* The file size of this background image is 93% smaller
      * to improve page load speed on mobile internet connections */
-    background-image: url(img2.jpg);
+    background-image: url(images/background-photo-mobile-devices.jpg);
   }
 	}
