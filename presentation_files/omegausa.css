@@ -1,0 +1,18 @@
+.box-group.box-group-contact-us {
+	display: none;
+}
+.box-group .box-group-inner-1 {
+	margin-top: 25px;
+}
+.page-breadcrumb ul li a {
+	text-transform: capitalize;
+}
+.page-sidebar .widget-menu nav > ul > li > a {
+	text-transform: capitalize;
+}
+.spec-list ul li {
+	padding: 5px 0px; line-height: 20px;
+}
+.page-block .block-title {
+	margin: 0px 0px 5px; padding: 5px 0px;
+}
