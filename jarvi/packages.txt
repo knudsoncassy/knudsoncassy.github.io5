@@ -1,3 +1,0 @@
-pkg-config
-libffi-dev
-libsndfile-dev
